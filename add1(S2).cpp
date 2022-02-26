@@ -30,4 +30,7 @@ int main()
 	}
 
 	std::cout << "MAX ELEMENT IS " << findMax(array, count, 0, INT_MIN) << std::endl; //Вывожу минимальный элемент
+	
+	delete[] array;
+	
 }
